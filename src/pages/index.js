@@ -9,7 +9,7 @@ import ProductContext from 'context/ProductContext';
 
 const IndexPage = () => {
   const { collections } = React.useContext(ProductContext);
-
+  console.log(`index`);
   return (
     <Layout>
       <SEO description="The MadHatter store homepage" title="Homepage" />
